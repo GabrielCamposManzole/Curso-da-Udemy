@@ -14,15 +14,17 @@ const resultadoFuncao = soma();
 console.log(soma(2,10));
 */
 
-
 //const raiz =  n => n ** 0.5; //funcao Arrow function
 
-const raiz = function (n) {     //funcao declarativa tradicional
+const raiz = function (n) {
+  //funcao declarativa tradicional
   return n ** 0.5;
 };
 
 console.log(raiz(9));
 console.log(raiz(16));
+console.log(raiz(1));
+console.log(raiz(4));
 console.log(raiz(25));
 console.log(raiz(36));
 console.log(raiz(49));
