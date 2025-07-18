@@ -1,0 +1,16 @@
+body {
+            font-family: Arial, sans-serif;
+        }
+        #cabecalho-um {
+            color: blue;
+        }
+        .fundo-vermelho {
+            background-color: red;
+            color: white;
+            padding: 10px;
+        }
+        .fundo-azul {
+            background-color: blue;
+            color: white;
+            padding: 10px;
+        }
